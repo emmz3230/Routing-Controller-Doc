@@ -63,7 +63,6 @@ const sidebars = {
         "Using-middlewares/Use existing-middleware",
       ],
     },
-
     {
       type: "category",
       label: "Using-interceptors",
@@ -74,7 +73,7 @@ const sidebars = {
         "Using-middlewares/Global-Intereceptors",
       ],
     },
-    "Creating-Insatancex-of-classes-from-action-params",
+    ["Creating-Insatancex-of-classes-from-action-params"],
   ],
 };
 
