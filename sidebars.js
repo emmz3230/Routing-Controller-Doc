@@ -96,7 +96,7 @@ const sidebars = {
       label: "Decorators-Reference",
       items: [
         "Decorators-Reference/Controller-Decorators",
-        "Decorators-Reference/Controller-Method-Decorators",
+        "Decorators-Reference/Controller-Action-Decorators",
         "Decorators-Reference/Method-Parameter-Decorators",
         "Decorators-Reference/Middleware-And-Interceptor-Decorators",
         "Decorators-Reference/Other-Decorators",
