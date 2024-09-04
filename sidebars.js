@@ -61,19 +61,45 @@ const sidebars = {
       items: [
         "Using-middlewares/index",
         "Using-middlewares/Use existing-middleware",
+        "Using-middlewares/Creating-your-own-koa-middleware",
+        "Using-middlewares/Global-middlewares",
+        "Using-middlewares/Error-handlers",
+        "Using-middlewares/Loading-middlewares-interceptors-and-controllers-from-directories",
       ],
     },
     {
       type: "category",
       label: "Using-interceptors",
       items: [
-        "Using-interceptors/index",
+        "Using-Interceptors/index",
         "Using-Interceptors/Interceptor-Function",
         "Using-Interceptors/Interceptor-classes",
-        "Using-middlewares/Global-Intereceptors",
+        "Using-Interceptors/Global-Intereceptors",
       ],
     },
-    ["Creating-Insatancex-of-classes-from-action-params"],
+    "Creating-Instanes-of-classes-from-action-params",
+    "Controller inheritance",
+    "Auto validating action params",
+    {
+      type: "category",
+      label: "Using authorization features",
+      items: ["@Authorized decorator", "@CurrentUser decorator"],
+    },
+    "Using DI container",
+    "Custom parameter decorators",
+    {
+      type: "category",
+      label: "Decorators Reference",
+      items: [
+        "Controller Decorators",
+        "Controller Method Decorators",
+        "Method Parameter Decorators",
+        "Middleware And Interceptor Decorators",
+        "Other Decorators",
+      ],
+    },
+    "Samples",
+    "Release notes",
   ],
 };
 
