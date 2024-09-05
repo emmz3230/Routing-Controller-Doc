@@ -59,7 +59,7 @@ app.listen(3000);
 
 :::note
 
-if you are koa user you just need to use createKoaServer instead of createExpressServer
+If you use Koa you just need to use createKoaServer instead of createExpressServer
 
 :::
 
