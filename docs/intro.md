@@ -6,15 +6,15 @@ sidebar_position: 1
 
 welcome to the Routing-Controllers documentation site
 
-This documentation will help you understand and use the Routing-Controllers effectively. This definitive guide to building and integrating with Routing-Controllers . Whether you're a entry level, junior,mid-senior or senior developer.
+This documentation help you understand and use Routing-Controllers effectively. This definitive guide you to building and integrating with Routing-Controllers. Whether you're a entry level, junior,mid-senior or senior developer.
 
-## Getting Started
+## Get started
 
-Routing-ControllersAllows to create controller classes with methods as actions that handle requests. You can use routing-controllers with express.js or koa.js.
+Routing-Controllers Allows you to create controller classes with methods as actions that handle requests, Create structured, declarative and beautifully organized class-based controllers with heavy decorators usage in Express or Koa using TypeScript and Routing Controllers Framework. You can use routing-controllers with express.js or koa.js.
 
-But where to begin? This guide is your starting point. Whether you're creating robust APIs, managing complex routes, or building scalable web applications, Routing-Controllers has you covered. Dive deep into the core concepts and discover how Routing-Controllers can simplify your development process.
+Where to begin? This guide is your starting point. Whether you're creating robust APIs, managing complex routes, or building scalable web applications, Routing-Controllers has you covered. Dive deep into the core concepts and discover how Routing-Controllers can simplify your development process.
 
-With Routing-Controllers, you're not just coding; you're innovating. Let's get started!
+With Routing-Controllers, you're not just coding; you are innovating. Let's get started!
 
 ### What you'll need
 
