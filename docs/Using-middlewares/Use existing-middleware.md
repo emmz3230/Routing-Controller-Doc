@@ -1,6 +1,7 @@
 # Use existing middleware
 
-There are multiple ways to use middleware. For example, lets try to use [compression](https://github.com/expressjs/compression) middleware:
+Middleware can be used in various ways.
+For example, lets try to use [compression](https://github.com/expressjs/compression) middleware:
 
 1. Install compression middleware: `npm install compression`
 
@@ -19,7 +20,7 @@ getOne(@Param("id") id: number) {
 }
 ```
 
-This way compression middleware will be applied only for `getOne` controller action, and will be executed before action execution. To execute middleware after action use `@UseAfter` decorator instead.
+This way, compression middleware applies only to the `getOne` controller action and runs before the action executes. To execute middleware after action use `@UseAfter` decorator instead.
 
 3. To use middleware per-controller:
 
@@ -33,7 +34,7 @@ export class UserController {}
 
 ```
 
-This way compression middleware will be applied for all actions of the `UserController` controller, and will be executed before its action execution. Same way you can use `@UseAfter` decorator here.
+This way, compression middleware applies to all actions of the `UserController` and runs before its action execution. Same way you can use `@UseAfter` decorator here.
 
 4. If you want to use compression module globally for all controllers you can simply register it during bootstrap:
 
@@ -48,4 +49,4 @@ app.use(compression());
 app.listen(3000); // run express application
 ```
 
-Alternatively, you can create a custom [global middleware](https://github.com/typestack/routing-controllers/?tab=readme-ov-file#global-middlewares) and simply delegate its execution to the compression module.
+Instead, you can create a custom [global middleware](https://github.com/typestack/routing-controllers/?tab=readme-ov-file#global-middlewares) and simply delegate its execution to the compression module.

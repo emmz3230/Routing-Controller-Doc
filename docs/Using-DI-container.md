@@ -1,6 +1,6 @@
 # Using DI container
 
-`routing-controllers` supports a DI container out of the box. You can inject your services into your controllers, middlewares and error handlers. Container must be setup during application bootstrap. Here is example how to integrate routing-controllers with [typedi](https://github.com/typestack/typedi):
+`routing-controllers` supports a DI container out of the box. You can inject your services into your controllers, middlewares, and error handlers. Container must be setup during app bootstrap. Example how to integrate routing-controllers with [typedi](https://github.com/typestack/typedi):
 
 ```
 import { createExpressServer, useContainer } from 'routing-controllers';

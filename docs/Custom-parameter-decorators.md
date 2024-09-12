@@ -1,6 +1,6 @@
 # Custom parameter decorators
 
-You can create your own parameter decorators. Here is simple example how "session user" can be implemented using custom decorators:
+You can create your own parameter decorators. Here’s a simple example of implementing "session user" with custom decorators:
 
 ```
 import { createParamDecorator } from 'routing-controllers';

@@ -1,6 +1,6 @@
 # Creating instances of classes from action params
 
-When user sends a json object and you are parsing it, sometimes you want to parse it into object of some class, instead of parsing it into simple literal object. You have ability to do this using [class-transformer](https://github.com/typestack/class-transformer). To use it simply specify a classTransformer: true option on application bootstrap:
+When user sends a JSON object and you are parsing it, sometimes you want to parse it into object of some class, instead of parsing it into simple literal object. You have ability to do this using [class-transformer](https://github.com/typestack/class-transformer). To use it simply specify a classTransformer: true option on app bootstrap:
 
 ```
 import { createExpressServer } from 'routing-controllers';
@@ -10,7 +10,7 @@ createExpressServer({
 }).listen(3000);
 ```
 
-Now, when you parse your action params, if you have specified a class, routing-controllers will create you a class of that instance with the data sent by a user:
+Now, when you parse your action params, if you have specified a class, routing-controllers create you a class of that instance with the data sent by a user:
 
 ```
 export class User {
@@ -30,6 +30,6 @@ export class UserController {
 }
 ```
 
-If `User` is an interface - then simple literal object will be created. If its a class - then instance of this class will be created.
+If `User` is an interface, the system creates a simple literal object.. If its a class - Then, the system creates an instance of this class.
 
-This technique works with `@Body`, `@Param`, `@QueryParam`, `@BodyParam`, and other decorators. Learn more about class-transformer and how to handle more complex object constructions [here](https://github.com/typestack/class-transformer). This behaviour is enabled by default. If you want to disable it simply pass `classTransformer: false` to createExpressServer method. Alternatively you can disable transforming for [individual controllers or routes](https://github.com/typestack/routing-controllers/?tab=readme-ov-file#selectively-disable-requestresponse-transforming).
+This technique works with `@Body`, `@Param`, `@QueryParam`, `@BodyParam`, and other decorators. Learn more about class-transformer and how to handle more complex object constructions [here](https://github.com/typestack/class-transformer). This behavior activates by default. If you want to turn off it simply pass `classTransformer: false` to createExpressServer method.you can turn off transforming for [individual controllers or routes](https://github.com/typestack/routing-controllers/?tab=readme-ov-file#selectively-disable-requestresponse-transforming).

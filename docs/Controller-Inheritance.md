@@ -1,6 +1,6 @@
 # Controller Inheritance
 
-Often your application may need to have an option to inherit controller from another to reuse code and avoid duplication. A good example of the use is the CRUD operations which can be hidden inside `AbstractBaseController` with the possibility to add new and overload methods, the template method pattern.
+Often your app may need to have an option to inherit controller from another to reuse code and avoid duplication. A strong example shows CRUD operations hidden inside `AbstractBaseController`, allowing the addition and overriding of methods, the template method pattern.
 
 ```
 @Controller(`/product`)
