@@ -29,4 +29,4 @@ export class QuestionController {
 }
 ```
 
-If you mark `@CurrentUser` as `required` and currentUserChecker logic will return empty result, then routing-controllers will throw authorization required error.
+If you mark `@CurrentUser` as `required` and currentUserChecker logic return empty result, then routing-controllers throw authorization required error.

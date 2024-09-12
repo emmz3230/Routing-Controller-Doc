@@ -1,6 +1,6 @@
 # Global interceptors
 
-You can create interceptors that will affect all controllers in your project by creating interceptor class and mark it with `@Interceptor` decorator:
+You can create interceptors that affect all controllers in your project by creating interceptor class and mark it with `@Interceptor` decorator:
 
 ```
 import { Interceptor, InterceptorInterface, Action } from 'routing-controllers';

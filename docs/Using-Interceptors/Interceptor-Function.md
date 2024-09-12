@@ -1,6 +1,6 @@
 # Interceptor function
 
-The easiest way is to use functions directly passed to `@UseInterceptor` of the action.
+The easiest way to use functions directly passed to `@UseInterceptor` of the action .
 
 ```
 import { Get, Param, UseInterceptor } from "routing-controllers";
@@ -18,4 +18,4 @@ getOne(@Param("id") id: number) {
 }
 ```
 
-You can use `@UseInterceptor` per-action, or per-controller. If its used per-controller then interceptor will apply to all controller actions.
+You can use `@UseInterceptor` per-action, or per-controller. If its used per-controller then interceptor apply to all controller actions.

@@ -1,8 +1,8 @@
 # Creating your own express middleware
 
-Here is example of creating middleware for express.js:
+Example of creating middleware for express.js:
 
-1. There are two ways of creating middleware:
+1. Two ways of creating middleware:
 
 First, you can create a simple middleware function:
 

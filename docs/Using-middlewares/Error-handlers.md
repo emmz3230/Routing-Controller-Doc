@@ -1,6 +1,6 @@
 # Error handlers
 
-Error handlers are specific only to express. Error handlers work same way as middlewares, but implement `ExpressErrorMiddlewareInterface:`
+Error handlers are specific only to express. Error handlers work same way as middlewares, but apply `ExpressErrorMiddlewareInterface:`
 
 Create a class that implements the ErrorMiddlewareInterface interface:
 
@@ -16,7 +16,8 @@ export class CustomErrorHandler implements ExpressErrorMiddlewareInterface {
 }
 ```
 
-Custom error handlers are invoked after the default error handler, so you won't be able to change response code or headers. To prevent this, you have to disable default error handler by specifying `defaultErrorHandler` option in createExpressServer or useExpressServer:
+Custom error handlers execute after the default error handler, So you cannot change the response code or headers.
+To prevent this, you have to turn out default error handler by specifying `defaultErrorHandler` option in createExpressServer or useExpressServer:
 
 ```
 createExpressServer({
