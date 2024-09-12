@@ -18,7 +18,7 @@ If you want to inject the main session object, use @Session() without any parame
 savePost(@Session() session: any, @Body() post: Post) {}
 ```
 
-The parameter marked with @Session decorator is required by default. If your action param is optional, you have to mark it as not required:
+The parameter marked with @Session decorator required by default. If your action parameter is optional, you have to mark it as not required:
 
 ```
 action(@Session("user", { required: false }) user: User) {}

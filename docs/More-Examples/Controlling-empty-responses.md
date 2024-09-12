@@ -16,7 +16,7 @@ async remove(@Param("id") id: number): Promise<void> {
 }
 ```
 
-@OnUndefined is also useful when you return some object which can or cannot be undefined. In this example findOneById returns undefined in the case if user with given id was not found. This action will return 404 in the case if user was not found, and regular 200 in the case if it was found.
+Use @OnUndefined when returning an object that may or may not defined as . In this example findOneById returns undefined in the case if user with given id wasn't found. This action returns a 404 if the user isn't found and a 200 if the user appears.
 
 ```
 @Get("/users/:id")

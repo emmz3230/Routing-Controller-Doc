@@ -37,4 +37,4 @@ saveFile(@UploadedFile("fileName", { options: fileUploadOptions }) file: any) {
 }
 ```
 
-To inject all uploaded files use @UploadedFiles decorator instead. Routing-controllers uses multer to handle file uploads. You can install multer's file definitions via typings, and use files: File[] type instead of any[].
+To inject all uploaded files use @UploadedFiles decorator instead. Routing-controllers uses multer to handle file uploads. You can install multer's file definitions via typings, and use files:File[] type instead of any[].

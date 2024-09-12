@@ -4,7 +4,7 @@ sidebar_position: 25
 
 # Throw HTTP errors
 
-If you want to return errors with specific error codes, there is an easy way:
+If you want to return errors with specific error codes, An easy way exists:
 
 ```
 @Get("/users/:id")
@@ -18,7 +18,7 @@ getOne(@Param("id") id: number) {
 }
 ```
 
-Now, when user won't be found with requested id, response will be with http status code 404 and following content:
+Now, when the system fails to find a user with the requested ID, Respond with HTTP status code 404 and the following content.:
 
 ```
 {
@@ -27,7 +27,7 @@ Now, when user won't be found with requested id, response will be with http stat
 }
 ```
 
-There are set of prepared errors you can use:
+A set of prepared errors is available for you to use:
 
 - HttpError
 - BadRequestError
@@ -38,7 +38,7 @@ There are set of prepared errors you can use:
 - NotFoundError
 - UnauthorizedError
 
-You can also create and use your own errors by extending HttpError class. To define the data returned to the client, you could define a toJSON method in your error.
+You can also create and use your own errors by extending HttpError class. To define the data returned to the client, you could define a to JSON method in your error.
 
 ```
 class DbError extends HttpError {

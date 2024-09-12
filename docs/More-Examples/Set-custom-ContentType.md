@@ -2,7 +2,7 @@
 sidebar_position: 18
 ---
 
-# Set custom ContentType
+# Set custom contentType
 
 You can specify a custom ContentType header:
 

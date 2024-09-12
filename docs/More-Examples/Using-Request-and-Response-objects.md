@@ -46,6 +46,6 @@ export class UserController {
 
 :::note
 
-koa users can also use @Ctx() context to inject koa's Context object.
+koa users can also use `@Ctx()` context to inject `koa's` Context object.
 
 :::

@@ -4,7 +4,7 @@ sidebar_position: 24
 
 # Render templates
 
-If you are using server-side rendering you can render any template:
+When using server-side rendering, you can render any template:
 
 ```
 @Get("/users/:id")
@@ -17,4 +17,4 @@ getOne() {
 }
 ```
 
-To use rendering ability make sure to configure express / koa properly. To use rendering ability with Koa you will need to use a rendering 3rd party such as [koa-views](https://github.com/queckezz/koa-views/), koa-views is the only render middleware that has been tested.
+To use rendering ability make sure to configure express / koa properly. To use rendering ability with Koa you need to use a rendering third party such as [koa-views](https://github.com/queckezz/koa-views/), koa-views is the only render middleware proven through testing.

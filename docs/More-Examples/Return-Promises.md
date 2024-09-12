@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# RETURN PROMISES
+# Return promises
 
 You can return a promise in the controller, and it wait until promise resolved and return promise result in a response body.
 

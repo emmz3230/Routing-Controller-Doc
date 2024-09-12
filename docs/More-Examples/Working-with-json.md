@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Working with JSON
 
-If you are designing a REST API where your endpoints always receive and return JSON then you can use @JsonController decorator instead of @Controller. This guarantee you that data returned by your controller actions always transformed to JSON and Content-Type header will be always set to app/json. It also guarantee application/json header understood from the requests and the body parsed as JSON:
+If you designing a REST API where your endpoints always receive and return JSON then you can use @JsonController decorator instead of @Controller. This guarantee you that data returned by your controller actions always transformed to JSON and The Content-Type header always sets to app/json. It also guarantee app/json header understood from the requests and the body parsed as JSON:
 
 ```
 import { JsonController, Param, Body, Get, Post, Put, Delete } from 'routing-controllers';

@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Prefix all controllers routes
 
-If you want to prefix all your routes, e.g. /api you can use routePrefix option:
+If you want to prefix all your routes,for Example . `/api` you can use routePrefix option:
 
 ```
 import { createExpressServer } from 'routing-controllers';
