@@ -59,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/routing-controller.png",
       navbar: {
         title: "Routing Controller",
         logo: {
@@ -98,10 +98,6 @@ const config = {
               {
                 label: "Stack Overflow",
                 href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
               },
               {
                 label: "Twitter",
