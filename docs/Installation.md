@@ -4,7 +4,7 @@ sidebar_position: 2
 
 Install module:
 
-```
+```bash
     npm install routing-controllers
 ```
 
