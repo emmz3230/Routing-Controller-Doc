@@ -2,51 +2,53 @@
 sidebar_position: 2
 ---
 
-Install module:
+Install the  module:
 
 ```bash
     npm install routing-controllers
 ```
 
-2. Include the reflect-metadata shim:
+2. Include the **reflect-metadata** shim:
 
-```
+```bash
 npm install reflect-metadata
 ```
 
-and make sure to import it before you use routing-controllers:
+make sure to import it before you use **routing-controllers**:
 
 ```
 import 'reflect-metadata';
 ```
 
-3. Install framework:
+1. Install the framework & dependencies:
 
-a. If you want to use routing-controllers with express.js, then install it and all required dependencies:
+  a. If you want to use **routing-controllers** with express.js:
+  Install it and all required dependencies:
 
 ```
 npm install express body-parser multer
 ```
 
-Optionally you can also install their Type definitions:
+(Optionally, you can also install their type definitions:)
 
 ```
 npm install -D @types/express @types/body-parser @types/multer
 ```
 
-b. If you want to use routing-controllers with koa 2, then install it and all required dependencies:
+b. If you want to use **routing-controllers** with Koa 2:
+Install it and all required dependencies:
 
 ```
 npm install -D @types/express @types/body-parser @types/multer
 ```
 
-Optionally you can also install their Type definitions:
+(Optionally, you can also install their type definitions:)
 
 ```
 npm install -D @types/koa @types/koa-bodyparser
 ```
 
-1. Install peer dependencies:
+4. Install peer dependencies:
 
 ```
 npm install class-transformer class-validator
@@ -54,18 +56,23 @@ npm install class-transformer class-validator
 
 :::note
 
-In prior versions, These served as direct dependencies, But now, they serve as peer dependencies so you can choose when to upgrade and accept breaking changes.
+NOTE: In prior versions, these served as direct dependencies. Now, they serve as peer dependencies so you can choose when to upgrade and accept breaking changes.
 
 :::
 
-1. Its important to set these options in tsconfig.json file of your project:
+6. It is important to set these options in the **tsconfig.json** file of your project:
+
+
+
 
 ```
 {
-  "emitDecoratorMetadata": true,
-  "experimentalDecorators": true
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
 }
 
 ```
 
-Learn about the routing-controllers in Example of usage.
+Learn about the routing-controllers in [Example of usage](docs\Example-usage.md). 

@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Example of usage
 
-1. Create a file UserController.ts
+1. Create a file **UserController.ts**
 
 ```
 import 'reflect-metadata';
@@ -39,7 +39,7 @@ export class UserController {
 }
 ```
 
-This class register routes specified in method decorators in your server framework (express.js or koa).
+This class registers routes specified in method decorators in your server framework (express.js or koa).
 
 2. Create a file app.ts
 
@@ -63,4 +63,4 @@ If you use Koa you just need to use createKoaServer instead of createExpressServ
 
 :::
 
-1. Open in browser http://localhost:3000/users. You see **This action returns all users** in your browser. If you open http://localhost:3000/users/1 you see **This action returns user #1.**
+3. Open in browser http://localhost:3000/users. You see **This action returns all users** in your browser. If you open http://localhost:3000/users/1 you see **This action returns user #1.**
